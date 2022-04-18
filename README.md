@@ -11,9 +11,11 @@ Setting the values file below:
 service:
     name: name-of-the-service
     port: 80
+targetGroupARN: arn::the:arn 
 ```
 Or
 ```yaml
 nodeSelector:
     foo: bar
+targetGroupARN: arn::the:arn 
 ```
